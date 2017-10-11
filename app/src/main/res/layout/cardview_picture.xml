@@ -5,7 +5,8 @@
     android:id="@+id/prictureCard"
     android:layout_width="match_parent"
     android:layout_height="@dimen/height_cardview"
-    cardview:cardCornerRadius="@dimen/cornerradius_cardview">
+    cardview:cardCornerRadius="@dimen/cornerradius_cardview"
+    android:layout_marginBottom="@dimen/activity_vertical_margin">
     
     
     <FrameLayout
@@ -18,6 +19,7 @@
             android:layout_height="@dimen/height_cardview"
             android:background="@drawable/image"
             android:scaleType="centerCrop"
+            android:transitionName="@string/transitionname_picture"
             />
 
         <LinearLayout
